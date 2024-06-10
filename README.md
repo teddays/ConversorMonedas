@@ -3,8 +3,9 @@
   API de ExchangeRate, que nos auyda a  obtener la tasa de cambio en tiempo real.</p>
   
 <h3>Descripcion del codigo</h3>
-<p>El codigo esta construido para poder realizar una consulta en tiempo real a la API de ExchangeRate, esta consulta nos permite obtener la tasa de cambio actual de la moneda que deseamos convertir a otra moneda.</p>
-<p>Al momento de ejecutar el codigo podremos seleccionar con trabajar con principal o principal2, la primera opciones nos permite ingresar de forma libre las monedas que deseamos convertir de las opciones disponibles, en la opcion dos, encontraremos opciones pre establecidas de conversion que podra seleccionar el usuario.</p>
+<p>El codigo esta construido para poder realizar una consulta en tiempo real a la API de ExchangeRate, esta consulta nos permite obtener la tasa de cambio actual de la moneda que deseamos convertir a otra moneda. Para consumir la API usamos las clase HttpClient, HttpRequest y HttpResponse para crear un metodo de obtencion de tasa de cambio entre dos monedas con la  API de ExchangeRate, adicional usamos la librería externa Gson para poder convertir el Json de respuesta y manejarlo con los métodos que el lenguaje nos proporciona.</p>
+<p>Al momento de ejecutar el codigo podremos seleccionar con trabajar con principal o principal2, la primera opciones nos permite ingresar de forma libre las monedas que deseamos convertir de las opciones disponibles, en la opcion dos, encontraremos opciones pre establecidas de conversion que podra 
+seleccionar el usuario.</p>
 
 <h3>Requisitos</h3>
 <ul>
